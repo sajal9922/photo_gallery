@@ -1,0 +1,52 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+ 
+}
+nav{
+  background-color: rgb(101, 97, 97);
+  padding: 0.7rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+ 
+  
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 0;
+}
+nav li{
+list-style: none;
+padding: 1rem 0;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: blanchedalmond;
+}
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+  }
+  nav ul{
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  nav li{
+    padding: 0 1rem;
+  }
+} 
